@@ -1499,7 +1499,8 @@ h6 {
 }
 
 .contenido-suscripcion {
-  background-color: #fcfaf6;
+  background-color: white;
+  background-image: url(./img/fondo01.jpg);
   padding: 80px 20px;
   font-family: var(--font-family-base);
   color: #1a1a1a;
@@ -1903,6 +1904,36 @@ text-align: center;}
     width: 40px;
     height: 40px;
   }
+}
+
+.carousel-container{display: flex;
+flex-direction: column;}
+
+
+.testimonials-section {
+  background-image: url(./img/fondo02.jpg);
+  color: white;
+}
+
+.testimonials-section .card {
+  border: none;
+  border-radius: 15px;
+  background: white;
+  color: black;
+  min-height: 220px;
+}
+
+.testimonials-section .swiper-button-prev,
+.testimonials-section .swiper-button-next {
+  color: white;
+}
+
+.testimonials-section .swiper-pagination-bullet-active {
+  background: #1A34C5;
+}
+
+.bi-quote {
+  color: #1A34C5;
 }
 
 .carousel-container{display: flex;
