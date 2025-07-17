@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YaVino</title>
+
+  <!-- Booststrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40jBliWEiPJMOfH5oXFhY0L6gKNM7B+tJ3a3c2n2T02gV1v2r+oF8z9c+L+yF5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- icono-->
+  <link href="./img/icon.png" rel="icon">
+</head>
+
+<body>
+
+  <!-- navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" id="logoPrin" href="./index.html">YaVino</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#suscripciones">SUSCRIPCIÓN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">EQUIPO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">GALERÍA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="heroImg">
+    <div class="container d-flex align-items-center" style="min-height: calc(100vh - 120px);">
+      <div class="row align-items-center justify-content-between">
+        <div  class="col-lg-6">
+          <h1 class="h1-custom"><span class="colorDorado">ELIXIR</span> QUE DESPIERTA LO <span
+              class="colorDorado">SUPERIOR</span> EN VOS</h1>
+          <p class="p-custom"><span class="fontBold">Suscríbete a YaVino</span> y recibe mensualmente
+            vinos seleccionados para acompañar en todas tus ocasiones.</p>
+          <a href="#suscripciones" id="verMas">VER MÁS</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="./img/imgPruebaHero.png" alt="Hero Image" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARCAS -->
+  <section class="section-spacing pt-0 pb-0">
+    <div class="scroll-container">
+      <div class="scroll-track">
+        <div class="marcas-set">
+          <img src="./img/marca01.png" class="marca-img" alt="Marca 1">
+          <img src="./img/marca02.png" class="marca-img" alt="Marca 2">
+          <img src="./img/marca03.png" class="marca-img" alt="Marca 3">
+          <img src="./img/marca04.png" class="marca-img" alt="Marca 4">
+          <img src="./img/marca05.png" class="marca-img" alt="Marca 5">
+          <img src="./img/marca06.png" class="marca-img" alt="Marca 6">
+          <img src="./img/marca07.png" class="marca-img" alt="Marca 7">
+        </div>
+        <div class="marcas-set">
+          <img src="./img/marca01.png" class="marca-img" alt="Marca 1">
+          <img src="./img/marca02.png" class="marca-img" alt="Marca 2">
+          <img src="./img/marca03.png" class="marca-img" alt="Marca 3">
+          <img src="./img/marca04.png" class="marca-img" alt="Marca 4">
+          <img src="./img/marca05.png" class="marca-img" alt="Marca 5">
+          <img src="./img/marca06.png" class="marca-img" alt="Marca 6">
+          <img src="./img/marca07.png" class="marca-img" alt="Marca 7">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARACTERISTICAS PRINCIPALES -->
+
+  <section class="seccion-caracteristicas" class="seccion-caracteristicas section-spacing">
+    <div class="container">
+      <div class="row align-items-start">
+        <!-- Texto Izquierda -->
+        <div class="col-md-4">
+          <h2>
+            PRIVILEGIOS ÚNICOS <br>
+            EN CADA <span class="colorAzul">SUSCRIPCIÓN</span>
+          </h2>
+        </div>
+
+        <!-- Línea y Texto Derecha -->
+        <div class="col-md-8 d-flex flex-column">
+          <div class="linea-dorada mb-3"></div>
+          <p class="textCaracteristicas">Suscribite a cualquiera de nuestros planes y <br>
+            disfrutá los beneficios exclusivos de YaVino.
+          </p>
+        </div>
+      </div>
+
+      <!-- Características -->
+      <section class="sectionCaracteristicas section-spacing pt-0">
+        <div class="item-caracteristica">
+          <img src="./img/botellaIcon.png" alt="Botellas" class="icono-caracteristica" />
+          <div class="contenido-texto">
+            <div class="numero">01</div>
+            <div class="texto">
+              <h3 class="titulo" style="
+    margin-bottom: 0px">CALIDAD</h3>
+              <p class="descripcion">Botellas seleccionadas cuidadosamente</p>
+            </div>
+          </div>
+        </div>
+        <div class="item-caracteristica">
+          <img src="./img/cajaBotellaIcon.png" alt="Caja" class="icono-caracteristica" />
+          <div class="contenido-texto">
+            <div class="numero">02</div>
+            <div class="texto">
+              <h3 class="titulo" style="
+    margin-bottom: 0px">NOVEDAD</h3>
+              <p class="descripcion">Recibí vinos nuevos todos los meses.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item-caracteristica">
+          <img src="./img/coronaIcon.png" alt="Corona" class="icono-caracteristica" />
+          <div class="contenido-texto">
+            <div class="numero numero-special">03</div>
+            <div class="texto">
+              <h3 class="titulo" style="
+    margin-bottom: 0px">EXCLUSIVIDAD</h3>
+              <p class="descripcion">Accedé a beneficios exclusivos</p>
+            </div>
+          </div>
+        </div>
+        <div class="item-caracteristica">
+          <img src="./img/copasIcon.png" alt="Copas" class="icono-caracteristica" />
+          <div class="contenido-texto">
+            <div class="numero numero-special">04</div>
+            <div class="texto">
+              <h3 class="titulo" style="
+    margin-bottom: 0px">EXPERIENCIA</h3>
+              <p class="descripcion">Disfrutá del vino en cada detalle</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  </section>
+
+  <!-- NOSOTROS -->
+
+  <section id="nosotros" class="sectionNosotros section-spacing pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="nosotros-container">
+            <h2 class="nosotros-text">NOSOTROS</h2>
+            <div class="nosotros-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-nosotros">
+        <div class="columna-izquierda">
+          <div class="imagenes">
+            <img src="./img/imgNosotros.jpg" alt="Grupo brindando" class="img-grupo" />
+            <img src="./img/imgCopaMano.jpg" alt="Copa de vino" class="img-copa" />
+            <div class="etiqueta">
+              +30 AÑOS<br>DE HISTORIA
+            </div>
+          </div>
+        </div>
+        <div class="columna-derecha">
+          <div class="textosConRombos">
+            <span class="rombo"></span>
+            <p class="pregunta">¿QUIENES SOMOS?</p>
+            <span class="rombo"></span>
+          </div>
+          <h2 class="titulo-nosotros"> NOSOTROS SOMOS <span class="colorAzul" id="textEspecial">YaVino</span>
+          </h2>
+          <p class="descripcion-nosotros"> Somos una asociación con historia y pasión por el buen vino.
+            Ideamos una suscripción mensual para aquellos amantes del vino como nosotros.
+          </p>
+          <a href="#" class="btn-cta">QUIERO SABER MÁS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUSCRIPCIONES-->
+
+  <section id="suscripciones" class="sectionSuscripciones section-spacing">
+    <div class="textoSuscripciones">
+      <div class="textosConRombos">
+        <span class="rombo2"></span>
+        <h2>NUESTRAS SUSCRIPCIONES</h2>
+        <span class="rombo2"></span>
+      </div>
+      <p>ENCONTRÁ TU SUSCRIPCIÓN IDEAL Y DISFRUTÁ VINOS EXCLUSIVOS</p>
+    </div>
+
+    <div class="contenedor-cards">
+      <div class="card-plan">
+        <div class="card-header">
+          PARA LOS AMANTES DEL VINO
+        </div>
+        <div class="card-image">
+          <img src="./img/cajaMedium.jpg" alt="Caja de vinos">
+        </div>
+        <div class="card-content">
+          <h3>MEDIUM</h3>
+          <p class="precio">$27.000 <span class="mes">| POR MES</span></p>
+          <ul>
+            <li>ENVÍO A <strong>50% DE DESCUENTO</strong></li>
+            <li>PODES CANCELAR CUANDO QUIERAS</li>
+            <li>UNA CAJA POR MES CON 2 VINOS Y DESCUENTOS</li>
+            <li>VIDEO DE SOMMELIERS</li>
+          </ul>
+          <a href="./detalle.html" class="btn-elegir">ELEGIR</a>
+        </div>
+      </div>
+
+      <div class="card-plan">
+        <div class="card-headerSpecial">
+          MÁS SOLICITADO
+        </div>
+        <div class="card-header">
+          PARA LOS DE ALMA CATADORA
+        </div>
+        <div class="card-image">
+          <img src="./img/cajaPremium.jpg" alt="Caja de vinos">
+        </div>
+        <div class="card-content">
+          <h3>PREMIUM</h3>
+          <p class="precio">$33.000 <span class="mes">| POR MES</span></p>
+          <ul>
+            <li>ENVIO GRATIS</li>
+            <li>PODES CANCELAR CUANDO QUIERAS</li>
+            <li>UNA CAJA POR MES CON 3 VINOS</li>
+            <li>DESCUENTOS INCREIBLES</li>
+            <li>VIDEO DE SOMMELIERS</li>
+            <li>MARIDAJE SUGERIDO</li>
+          </ul>
+          <a href="./detalle.html" class="btn-elegir">ELEGIR</a>
+        </div>
+      </div>
+
+      <div class="card-plan">
+        <div class="card-header">
+          PARA LOS QUE RECIEN COMIENZAN
+        </div>
+        <div class="card-image">
+          <img src="./img/cajaBasic.jpg" alt="Caja de vinos">
+        </div>
+        <div class="card-content">
+          <h3>BASIC</h3>
+          <p class="precio">$27.000 <span class="mes">| POR MES</span></p>
+          <ul>
+            <li>ENVÍO A <strong>25% DE DESCUENTO</strong></li>
+            <li>CANCELACIÓN LUEGO DE 3 MESES</li>
+            <li>UNA CAJA POR MES CON 2 VINOS</li>
+            <li>OFERTAS EXCLUSIVAS</li>
+          </ul>
+          <a href="./detalle.html" class="btn-elegir">ELEGIR</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUESTROS PLANES -->
+  <section class="sectionPlanes section-spacing">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <!-- Texto -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="textosConRombos mb-4">
+            <span class="rombo3"></span>
+            <h4 class="d-inline-block mb-0 mx-2">¿POR QUÉ ELEGIRNOS?</h4>
+            <span class="rombo3"></span>
+          </div>
+          <h2 class="text-white mb-4">NUESTROS PLANES</h2>
+          <p class="text-white mb-5">Hacemos todo lo posible para que nuestras cajas no solo sean para degustar, sino
+            que también te ayuden a descubrir y aprender más sobre el mundo del vino.</p>
+          <div class="contenedorPartPlanes">
+            <div class="lista-beneficios">
+              <div class="d-flex align-items-start mb-3">
+                <i class="bi bi-check-circle-fill text-gold me-3 fs-5"></i>
+                <span class="text-white">Selección curada</span>
+              </div>
+              <div class="d-flex align-items-start mb-3">
+                <i class="bi bi-check-circle-fill text-gold me-3 fs-5"></i>
+                <span class="text-white">Experiencia única</span>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex align-items-start mb-3">
+                <i class="bi bi-check-circle-fill text-gold me-3 fs-5"></i>
+                <span class="text-white">Beneficios exclusivos</span>
+              </div>
+              <div class="d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-gold me-3 fs-5"></i>
+                <span class="text-white">WineSwap</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Imagen -->
+        <div class="col-lg-6" id="imgPlanes">
+          <img src="./img/imgRefe.jpg" alt="Caja de vinos" class="img-fluid rounded shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION WineSwap -->
+
+  <section class="wineswap-section py-5">
+    <div class="container">
+      <div class="wineswap-card">
+        <div class="row align-items-center">
+          <!-- Columna de imagen -->
+          <div class="col-lg-5">
+            <div class="wineswap-image-container">
+              <img src="./img/iconCopasChocando.png" alt="Intercambio de vinos con WineSwap"
+                class="img-fluid wineswap-image">
+            </div>
+          </div>
+
+          <!-- Columna de texto -->
+          <div class="col-lg-7">
+            <div class="wineswap-content">
+              <h2 class="wineswap-title">Ventaja con <span class="wineswap-highlight">WineSwap</span></h2>
+              <p class="wineswap-text">
+                ¿Te tocó una botella repetida? Con <strong>WineSwap</strong> podés intercambiarla con otros socios del
+                club.
+                ¡Tenés un <strong>envío gratis</strong> al mes para hacerlo!<br>
+                Así, seguís explorando nuevos vinos sin sumar gastos.
+              </p>
+              <div class="wineswap-divider"></div>
+              <a href="#" class="wineswap-button">QUIERO SABER MÁS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPO -->
+  <!-- SECCIÓN EQUIPO -->
+  
+  <section id="equipo" class="section-equipo section-spacing">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 text-center">
+          <div class="nosotros-container mb-4">
+            <div class="equipo-line"></div>
+            <h2 class="equipo-text">EQUIPO</h2>
+          </div>
+          <p class="section-subtitle">PASIÓN Y DETALLE EN TU SUSCRIPCIÓN</p>
+        </div>
+      </div>
+
+      <!-- Versión para todos los dispositivos -->
+      <div class="row justify-content-center">
+        <!-- Miembro 1 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 position-relative">
+          <div class="team-member-img-container">
+            <img src="./img/fotoEquipo01.jpg" alt="Marco Díaz" class="img-fluid w-100">
+            <div class="team-member-overlay d-flex flex-column justify-content-end">
+              <div class="team-member-info">
+                <h3 class="member-name mb-1">MARCO DIAZ</h3>
+                <p class="member-position mb-0">Sommelier Principal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Miembro 2 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 position-relative">
+          <div class="team-member-img-container">
+            <img src="./img/fotoEquipo02.jpg" alt="Ariana Romero" class="img-fluid w-100">
+            <div class="team-member-overlay d-flex flex-column justify-content-end">
+              <div class="team-member-info">
+                <h3 class="member-name mb-1">ARIANA ROMERO</h3>
+                <p class="member-position mb-0">Coordinadora Logística</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Miembro 3 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 position-relative">
+          <div class="team-member-img-container">
+            <img src="./img/fotoEquipo03.jpg" alt="Victoria Gomez" class="img-fluid w-100">
+            <div class="team-member-overlay d-flex flex-column justify-content-end">
+              <div class="team-member-info">
+                <h3 class="member-name mb-1">VICTORIA GOMEZ</h3>
+                <p class="member-position mb-0">Especialista</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Miembro 4 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4 position-relative">
+          <div class="team-member-img-container">
+            <img src="./img/fotoEquipo04.jpg" alt="Eric Smith" class="img-fluid w-100">
+            <div class="team-member-overlay d-flex flex-column justify-content-end">
+              <div class="team-member-info">
+                <h3 class="member-name mb-1">ERIC SMITH</h3>
+                <p class="member-position mb-0">Asesor financiero</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12 text-start">
+          <a href="#" class="btn-cta" id="botonDorado">CONOCER A TODO EL EQUIPO</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FAQ -->
+  
+  <section id="faq" class="section-faq section-spacing">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-12 text-center">
+          <div class="nosotros-container mb-4">
+            <h2 class="nosotros-text">PREGUNTAS FRECUENTES</h2>
+            <div class="nosotros-line"></div>
+          </div>
+
+          <div class="row justify-content-center">
+            <!-- Columna Izquierda -->
+            <div class="col-lg-6 pe-lg-4">
+              <div class="accordion" id="faqLeftAccordion">
+                <!-- Pregunta 1 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne">
+                      <span class="me-3">1</span> ¿Cómo funciona la suscripción?
+                    </button>
+                  </h3>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#faqLeftAccordion">
+                    <div class="accordion-body">
+                      Recibís una caja mensual con vinos seleccionados por nuestros sommeliers, información exclusiva y
+                      acceso a eventos virtuales.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo">
+                      <span class="me-3">2</span> ¿Puedo pausar mi suscripción?
+                    </button>
+                  </h3>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqLeftAccordion">
+                    <div class="accordion-body">
+                      Sí, podés pausar hasta por 3 meses desde tu panel de usuario. El plan Basic requiere reactivación
+                      manual.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pregunta 3 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree">
+                      <span class="me-3">3</span> ¿Qué incluye cada caja?
+                    </button>
+                  </h3>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqLeftAccordion">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>2 o 3 botellas (según tu plan)</li>
+                        <li>Ficha técnica de cada vino</li>
+                        <li>Recomendaciones de maridaje</li>
+                        <li>Acceso a contenido exclusivo</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pregunta 4 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour">
+                      <span class="me-3">4</span> ¿Hacen envíos a todo el país?
+                    </button>
+                  </h3>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#faqLeftAccordion">
+                    <div class="accordion-body">
+                      Sí, con cobertura nacional. Envíos gratis para planes Premium y descuentos para Medium.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Columna Derecha -->
+            <div class="col-lg-6 ps-lg-4">
+              <div class="accordion" id="faqRightAccordion">
+                <!-- Pregunta 5 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive">
+                      <span class="me-3">5</span> ¿Cómo es el proceso de WineSwap?
+                    </button>
+                  </h3>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#faqRightAccordion">
+                    <div class="accordion-body">
+                      Los suscriptores Premium pueden intercambiar 1 vino por mes desde su panel, eligiendo entre 5
+                      opciones alternativas.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pregunta 6 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix">
+                      <span class="me-3">6</span> ¿Puedo regalar una suscripción?
+                    </button>
+                  </h3>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#faqRightAccordion">
+                    <div class="accordion-body">
+                      ¡Claro! Al comprar cualquier plan, seleccioná "Es un regalo" e ingresá los datos del destinatario.
+                      Incluimos tarjeta personalizada.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pregunta 7 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven">
+                      <span class="me-3">7</span> ¿Qué métodos de pago aceptan?
+                    </button>
+                  </h3>
+                  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#faqRightAccordion">
+                    <div class="accordion-body">
+                      Todas las tarjetas (débito/crédito), Mercado Pago, transferencia bancaria y PayPal.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pregunta 8 -->
+                <div class="accordion-item mb-3 border-0">
+                  <h3 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseEight">
+                      <span class="me-3">8</span> ¿Cómo contactar al equipo?
+                    </button>
+                  </h3>
+                  <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                    data-bs-parent="#faqRightAccordion">
+                    <div class="accordion-body">
+                      Por WhatsApp (+54 9 11 2345-6789), email (info@yavino.com) o nuestro formulario de contacto.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <!-- CARRUSEL -->
+
+<div class="carousel-container">
+  <div><h2>MIRA NUESTRAS IMAGENES</h2></div>
+
+  <div class="carousel-track-container">
+    <ul class="carousel-track">
+      <li class="carousel-slide current-slide">
+        <img src="./img/imgCarrusel01.jpg" alt="Imagen 1" />
+      </li>
+      <li class="carousel-slide">
+        <img src="./img/imgCarrusel02.jpg"alt="Imagen 2" />
+      </li>
+      <li class="carousel-slide">
+        <img src="./img/imgCarrusel03.jpg" alt="Imagen 3" />
+      </li>
+      <li class="carousel-slide">
+        <img src="./img/imgCarrusel04.jpg" alt="Imagen 4" />
+      </li>
+            <li class="carousel-slide">
+        <img src="./img/imgCarrusel05.jpg" alt="Imagen 4" />
+      </li>
+            <li class="carousel-slide">
+        <img src="./img/imgCarrusel06.jpg" alt="Imagen 4" />
+      </li>
+    </ul>
+  </div>
+    <button class="carousel-btn prev">&#10094;</button>
+  <button class="carousel-btn next">&#10095;</button>
+</div>
+    <!-- CONTACTO-->
+    <section class="contact-form-section py-5">
+        <div class="container">
+            <div class="titulo-principal text-center mb-5">
+                <h2><strong>ESCRÍBENOS</strong> SI TIENES DUDAS</h2>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 text-center mb-4 mb-lg-0">
+                    <img src="./img/imgDudas.png" alt="Imagen de contacto" class="img-fluid" style="max-height: 400px;">
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Tu email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTACTO-->
+  <!-- FOOTER-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <a class="navbar-brand" id="logoPrin" href="#" style="color: white;">YaVino</a>
+        <p class="footer-about-text">
+          Descubre los mejores vinos con nuestras suscripciones exclusivas.
+        </p>
+
+      </div>
+
+      <div class="footer-section links">
+        <h3>Enlaces Rápidos</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Suscripciones</a></li>
+          <li><a href="#">Vinos</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+      </div>
+
+      <div class="footer-section contact">
+        <h3>Contacto</h3>
+        <div class="contact-info">
+          <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Falsa 123, CABA</p>
+          <p><i class="fas fa-phone"></i> Teléfono: +54 11 1234-5678</p>
+          <p><i class="fas fa-envelope"></i> Email: info@yavino.com</p>
+        </div>
+      </div>
+
+      <div class="footer-section newsletter">
+        <h3>Newsletter</h3>
+        <p>Suscríbete para recibir ofertas exclusivas</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Tu email" required>
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Belluccia 3 - Visible Template. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+      <!-- SCRIPT-->
+  <!-- Bootstrap JS (opcional si no usás componentes de Bootstrap) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
