@@ -1215,7 +1215,7 @@ h6 {
 .testimonials {
   background: #111;
   color: white;
-  padding: 50px 0;
+  padding: 3rem 0rem;
 }
 
 .other-options .options-grid {
@@ -1360,10 +1360,9 @@ h6 {
   overflow: hidden; 
   position: relative; 
   background-image: url('./img/imgDetalle.jpg'); 
-  background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-
 .premium-content-wrapper {
   padding-top: 10rem;
   display: flex;
@@ -1433,7 +1432,6 @@ h6 {
 
 .premium-price .price-separator {
   color: var(--colorAzul);
-  font-size: 1.5em;
   line-height: 1;
 }
 
@@ -1444,7 +1442,6 @@ h6 {
   padding: 15px 40px;
   font-size: 1.1rem;
   font-weight: bold;
-  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-transform: uppercase;
@@ -1452,7 +1449,8 @@ h6 {
 }
 
 .premium-button:hover {
-  background-color: #003366;
+  background-color: var(--hover-boton);
+  color: white;
 }
 
 .premium-stats {
@@ -1500,7 +1498,9 @@ h6 {
 
 .contenido-suscripcion {
   background-color: white;
-  background-image: url(./img/fondo01.jpg);
+  background-image: url(./img/fondo03.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 80px 20px;
   font-family: var(--font-family-base);
   color: #1a1a1a;
@@ -1652,6 +1652,9 @@ h6 {
 
 /* PLANES */
 @media (max-width: 992px) {
+  .heroImg{
+    display: flex;
+  }
   .sectionPlanes .row {
     flex-direction: column-reverse;
   }
@@ -1792,7 +1795,11 @@ text-align: center;}
   .comentario-card {
     max-width: 90%;
   }
-
+.premium-section {
+  background-size: 500%;
+  background-repeat: no-repeat;
+  background-position: start;
+}
   .carousel-control-prev,
   .carousel-control-next {
     width: 10%;
@@ -1912,15 +1919,18 @@ flex-direction: column;}
 
 .testimonials-section {
   background-image: url(./img/fondo02.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 
 .testimonials-section .card {
   border: none;
-  border-radius: 15px;
   background: white;
   color: black;
   min-height: 220px;
+  padding: 3rem 0rem;
 }
 
 .testimonials-section .swiper-button-prev,
@@ -1936,5 +1946,10 @@ flex-direction: column;}
   color: #1A34C5;
 }
 
-.carousel-container{display: flex;
-flex-direction: column;}
+.contactSection{
+  background-image: url(./img/fondo03.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0rem;
+}
